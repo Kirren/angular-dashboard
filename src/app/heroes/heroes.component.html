@@ -5,6 +5,10 @@
   <label>Hero name:
     <input #heroName />
   </label>
+  <button (click)="add(heroName.value); heroName.value=''">
+    add
+  </button>
+
   <!-- (click) passes input value to add() and then clears the input -->
   <ul class="heroes">
     <li *ngFor="let hero of heroes">
@@ -18,7 +22,4 @@
               (click)="delete(hero)">x</button>
     </li>
   </ul>
-  <button (click)="add(heroName.value); heroName.value=''">
-    add
-  </button>
 </div>
