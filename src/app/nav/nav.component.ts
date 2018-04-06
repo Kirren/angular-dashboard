@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-nav',
@@ -8,13 +7,9 @@ import { Location } from '@angular/common';
 })
 export class NavComponent implements OnInit {
 
-  constructor(public location: Location) { }
+  constructor() { }
 
   ngOnInit() {
-  }
-
-  isActive(viewLocation: string): boolean {
-    return this.location.path() === viewLocation;
   }
 
 }
