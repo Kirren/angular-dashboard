@@ -1,0 +1,16 @@
+/* DashboardComponent's private CSS styles */
+.hero-link {
+  display: inline-block;
+  width: 100%;
+  max-height: 120px;
+  padding: 1rem;
+  color: #eee;
+  background-color: #607D8B;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.hero-link:hover {
+  background-color: #EEE;
+  color: #607d8b;
+  text-decoration: none;
+}
