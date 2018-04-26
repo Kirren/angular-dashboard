@@ -1,0 +1,25 @@
+/* HeroSearch private styles */
+ul.search-result {
+  margin-top: 0;
+  padding-left: 0;
+  li {
+    border: 1px solid #80bdff;
+    border-top: 0;
+    width:100%;
+    height: 2rem;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    &:hover {
+      background-color: #607D8B;
+    }
+    a {
+      color: #888;
+      display: block;
+      text-decoration: none;
+      &:hover, &:active {
+        color: white;
+      }
+    }
+  }
+}
